@@ -1,2 +1,2 @@
 # spring-break-countdown
-published at howmanydaysuntilnewlifespringbreak.com
+view it [here](http://howmanydaysuntilnewlifespringbreak.com/)
