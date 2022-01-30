@@ -48,6 +48,10 @@ video, img {
 	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+#rotate {
+	opacity: 0.5;
+}
+
 .fas {
 	transition: opacity 0.2s;
 	opacity: 0.3;
