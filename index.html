@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Link Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Link CSS Stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/eba0e32aea.js" crossorigin="anonymous"></script>
+
+	<script src="scripts/num_to_word.js"></script>
+	<script src="scripts/audio.js"></script>
+	<script src="scripts/drag.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Spring Break Countdown</title>
+	<link rel="icon" type="image/x-icon" href="media/favicon.ico">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<audio autoplay muted loop id="audio">
+		<source src="media/beachsound.mp3" type="audio/mp3">
+	</audio>
+	<div class="d-none d-sm-block" id="container">
+		<video autoplay muted loop playsinline id="video" src="media/beach.mp4"></video>
+	</div>
+	<div class="d-sm-none" id="mobilecontainer">
+		<img src="media/beach.gif" alt="beach waves">
+	</div>
+	<i class="fas fa-volume-mute fa-2x" id="vol"></i>
+	<div id="countdown">
+		<h1 id="days"></h1>
+		<h4 id="hms" class="text-right"></h4>
+		<h1 id="break"></h1>
+	</div>
+</body>
+
+</html>
