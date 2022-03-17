@@ -79,6 +79,6 @@ var x = setInterval(function () {
 		clearInterval(x);
 		document.getElementById("days").innerHTML = "";
 		document.getElementById("hms").innerHTML = "";
-		document.getElementById("break").innerHTML = "IT'S SPRING BREAK!";
+		document.getElementById("break").innerHTML = "spring break is over :(";
 	}
 }, 1000);
