@@ -51,7 +51,7 @@ function toWordsconvert(s) {
 	return str_val.replace(/\s+/g, ' ');
 }
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 25, 2022 17:00:00").getTime();
+var countDownDate = new Date("Feb 25, 2023 17:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -79,6 +79,6 @@ var x = setInterval(function () {
 		clearInterval(x);
 		document.getElementById("days").innerHTML = "";
 		document.getElementById("hms").innerHTML = "";
-		document.getElementById("break").innerHTML = "spring break is over :(";
+		document.getElementById("break").innerHTML = "IT'S SPRING BREAK!!!!";
 	}
 }, 1000);
