@@ -1,24 +1,25 @@
 body {
 	overflow: hidden;
-	background: #FF512F;
+	background: rgb(10,10,12);
 	margin: 0;
 	padding: 0;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #F09819, #FF512F);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #F09819, #FF512F);
+	background: -moz-linear-gradient(90deg, rgba(10, 10, 12, 1) 0%, rgba(144, 175, 205, 1) 50%, rgba(10, 10, 12, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(10, 10, 12, 1) 0%, rgba(144, 175, 205, 1) 50%, rgba(10, 10, 12, 1) 100%);
+	background: linear-gradient(90deg, rgba(10, 10, 12, 1) 0%, rgba(144, 175, 205, 1) 50%, rgba(10, 10, 12, 1) 100%);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-#container, #mobilecontainer {
+#container,
+#mobilecontainer {
 	overflow: hidden;
 	width: 100%;
 	height: 100% !important;
 	overflow-anchor: none;
 }
 
-video, img {
+video,
+img {
 	height: 100% !important;
 	width: 177.77777778vh;
 	min-width: 100%;
@@ -35,16 +36,16 @@ video, img {
 #countdown {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 10%;
+	top: 30%;
+	left: 30%;
 	cursor: move;
 	user-select: none;
 	text-shadow:
-		0.03em 0 black,
-		0 0.03em black,
-		-0.03em 0 black,
-		0 -0.03em black;
-	color: white;
+		0.03em 0 white,
+		0 0.03em white,
+		-0.03em 0 white,
+		0 -0.03em white;
+	color: #22311d;
 	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
