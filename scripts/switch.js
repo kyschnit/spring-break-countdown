@@ -30,7 +30,7 @@ function switchToBeach() {
 
 function switchBackground() {
 	var button = document.getElementById("switch-button");
-	if (button.innerHTML == "Beach") {
+	if (button.innerHTML.includes("Beach")) {
 		switchToBeach();
 	} else {
 		switchToMountains();
