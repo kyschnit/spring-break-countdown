@@ -1,72 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Link Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		/>
+  <head>
+    <!-- Link Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
 
-		<!-- Link CSS Stylesheet -->
-		<link rel="stylesheet" href="style.css" />
+    <!-- Link CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		<script
-			src="https://kit.fontawesome.com/eba0e32aea.js"
-			crossorigin="anonymous"
-		></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eba0e32aea.js"
+      crossorigin="anonymous"
+    ></script>
 
-		<script src="scripts/num_to_word.js"></script>
-		<script src="scripts/audio.js"></script>
-		<script src="scripts/drag.js"></script>
-		<script src="scripts/switch.js"></script>
+    <!-- Link JavaScript Files -->
+    <!-- if you create a new script, be sure to link it here -->
+    <script src="scripts/countdown.js"></script>
+    <script src="scripts/audio.js"></script>
+    <script src="scripts/drag.js"></script>
+    <script src="scripts/switch.js"></script>
 
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Spring Break Countdown</title>
-		<link rel="icon" type="image/x-icon" href="media/favicon.ico" />
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-	</head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spring Break Countdown</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-	<body>
-		<audio autoplay muted loop id="audio">
-			<source
-				src="media/mountainsound.mp3"
-				type="audio/mp3"
-				id="source"
-			/>
-		</audio>
-		<button
-			type="button"
-			class="btn btn-outline-dark btn-sm"
-			id="switch-button"
-		>
-			Beach
-		</button>
-		<div id="container">
-			<video
-				autoplay
-				muted
-				loop
-				playsinline
-				id="video"
-				src="media/mountains.mp4"
-			></video>
-		</div>
-		<!-- <div class="d-sm-none" id="mobilecontainer">
+  <body>
+    <audio autoplay muted loop id="audio">
+      <source src="media/mountainsound.mp3" type="audio/mp3" id="source" />
+    </audio>
+    <button
+      type="button"
+      class="btn btn-outline-dark btn-sm"
+      id="switch-button"
+    >
+      Beach
+    </button>
+    <div id="container">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        id="video"
+        src="media/mountains.mp4"
+      ></video>
+    </div>
+    <!-- <div class="d-sm-none" id="mobilecontainer">
 			<img src="media/mountains.gif" alt="mountains" id="gif" />
 		</div> -->
-		<i class="fas fa-volume-mute fa-2x" id="vol"></i>
-		<div id="countdown">
-			<h1 id="days"></h1>
-			<h4 id="hms" class="text-right"></h4>
-			<h1 id="break"></h1>
-			<h6 id="rotate" class="text-center d-sm-none">
-				(rotate for best experience)
-			</h6>
-		</div>
-	</body>
+    <i class="fas fa-volume-mute fa-2x" id="vol"></i>
+    <div id="countdown">
+      <h1 id="days"></h1>
+      <h4 id="hms" class="text-right"></h4>
+      <h1 id="break"></h1>
+      <h6 id="rotate" class="text-center d-sm-none">
+        (rotate for best experience)
+      </h6>
+    </div>
+  </body>
 </html>
