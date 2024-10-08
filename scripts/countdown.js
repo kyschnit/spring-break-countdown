@@ -4,7 +4,7 @@
  * Can also be "Feb 23, 2024, 18:00:00"
  * Time is 24 hour format
  */
-var spring_break_date = new Date("February 23, 2024 18:00:00").getTime();
+var spring_break_date = new Date("March 1, 2025 12:00:00").getTime();
 
 // System for American Numbering
 var th_val = ["", "thousand", "million", "billion", "trillion"];
